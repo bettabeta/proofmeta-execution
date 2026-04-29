@@ -42,9 +42,10 @@ Each resolver is independent. Mix and match. Use Stripe for payment and Solana f
 | Resolver | Role | Status | Description |
 |----------|------|--------|-------------|
 | [free](resolvers/free/) | payment | ✅ Ready | No-op resolver for free licenses. Always returns `confirmed`. |
-| [stripe](resolvers/stripe/) | payment | 🚧 Planned | Stripe Checkout + webhooks. One-time and subscription. |
-| [x402](resolvers/x402/) | payment | 🚧 Planned | x402 protocol — HTTP-native micropayments. |
-| [solana-pda](resolvers/solana-pda/) | anchor | 🚧 Planned | Anchor license grants as Solana PDAs. |
+| [privy](resolvers/privy/) | wallet | 🚧 In Progress | Agent wallet management via Privy. Multi-chain (EVM + Solana). |
+| [x402](resolvers/x402/) | payment | 🚧 In Progress | x402 protocol — HTTP-native USDC micropayments via Coinbase/Pay AI/Corbits. |
+| [stripe](resolvers/stripe/) | payment | 💤 Planned | Stripe Checkout + webhooks. One-time and subscription. |
+| [solana-pda](resolvers/solana-pda/) | anchor | 💤 Planned | Anchor license grants as Solana PDAs. |
 
 ## Resolver interface
 

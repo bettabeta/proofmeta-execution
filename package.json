@@ -1,0 +1,30 @@
+{
+  "name": "proofmeta-execution",
+  "version": "1.0.0",
+  "description": "> **Layer:** Execution > **Depends on:** [proofmeta-primitive-core](https://github.com/bettabeta/proofmeta-primitive-core) + [proofmeta-license-contracts](https://github.com/bettabeta/proofmeta-license-contracts) > **Guarantees:** Pluggable payment, delivery, and anchoring — pick your stack, the protocol doesn't care.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bettabeta/proofmeta-execution.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bettabeta/proofmeta-execution/issues"
+  },
+  "homepage": "https://github.com/bettabeta/proofmeta-execution#readme",
+  "dependencies": {
+    "@privy-io/node": "^0.16.0",
+    "@solana/web3.js": "^1.98.4",
+    "@x402/fetch": "^2.11.0",
+    "typescript": "^6.0.3",
+    "uuid": "^14.0.0"
+  }
+}
